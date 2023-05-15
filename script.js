@@ -1,6 +1,4 @@
-
-  //Complete the function
-	function letterCombinations(digits) {
+function letterCombinations(digits) {
   const digitToLetters = {
     '2': 'abc',
     '3': 'def',
@@ -39,7 +37,3 @@
 const input = "23";
 const output = letterCombinations(input);
 console.log(output); // Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
-
-}
-
-module.exports = letterCombinations;
